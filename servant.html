@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fate Grand Order Review</title>
+</head>
+<body>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 65%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background: url(https://wallpapers.com/images/hd/fate-grand-order-genesis-2nks7era2soryk95.jpg);
+    
+}
+
+header{
+    width: 100%;
+    padding: 1rem 5%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+header .logo img {
+    height: 80px;
+    width: auto;
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
+nav a:hover,
+nav a.active{
+    color: #00a2ff;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 100px;
+    padding: 2rem;
+    justify-items: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    border-radius: 15px;
+    width: 60%; 
+    height: 650px;
+}
+
+.circle-container {
+    position: relative;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+}
+
+.circle:hover {
+    transform: scale(1.1); 
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.class-name {
+    position: absolute; 
+    top: 110px; 
+    width: 100%; 
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+
+    </style>
+    <header>
+        <a class="logo"><img src="https://www.pikpng.com/pngl/b/515-5159038_saints-quartz-fate-grand-order-fate-go-saint.png"
+            height="150px" width="140px"></h2></a>
+
+        <nav>
+            <a href="index.html" > Home</a>
+            <a href="servant.html" >Servant Classes</a>
+            <a href="story.html" >Story</a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <img src="https://www.pikpng.com/pngl/b/515-5159038_saints-quartz-fate-grand-order-fate-go-saint.png"
+            height="80px" width="auto"></a>
+        </nav>
+    </header>
+    <div class="grid-container">
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Saber" target="_blank">
+                <div class="circle">
+                    <img src="saber.png" alt="Saber">
+                    <p class="class-name">Saber</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Archer" target="_blank">
+                <div class="circle">
+                    <img src="archer.png" alt="Archer">
+                    <p class="class-name">Archer</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Lancer" target="_blank">
+                <div class="circle">
+                    <img src="lancer.png" alt="Lancer">
+                    <p class="class-name">Lancer</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Rider" target="_blank">
+                <div class="circle">
+                    <img src="rider.png" alt="Rider">
+                    <p class="class-name">Rider</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Caster" target="_blank">
+                <div class="circle">
+                    <img src="caster.png" alt="Caster">
+                    <p class="class-name">Caster</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Assassin" target="_blank">
+                <div class="circle">
+                    <img src="assassin.png" alt="Assassin">
+                    <p class="class-name">Assassin</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Berserker" target="_blank">
+                <div class="circle">
+                    <img src="berserker.png" alt="Berserker">
+                    <p class="class-name">Berserker</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Ruler" target="_blank">
+                <div class="circle">
+                    <img src="ruler.png" alt="Ruler">
+                    <p class="class-name">Ruler</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Avenger" target="_blank">
+                <div class="circle">
+                    <img src="avenger.png" alt="Avenger">
+                    <p class="class-name">Avenger</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Moon_Cancer" target="_blank">
+                <div class="circle">
+                    <img src="moon_cancer.png" alt="Moon Cancer">
+                    <p class="class-name">Moon Cancer</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Alter_Ego" target="_blank">
+                <div class="circle">
+                    <img src="alter_ego.png" alt="Alter Ego">
+                    <p class="class-name">Alter Ego</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Foreigner" target="_blank">
+                <div class="circle">
+                    <img src="foreigner.png" alt="Foreigner">
+                    <p class="class-name">Foreigner</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Pretender" target="_blank">
+                <div class="circle">
+                    <img src="pretender.png" alt="Pretender">
+                    <p class="class-name">Pretender</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Shielder" target="_blank">
+                <div class="circle">
+                    <img src="shielder.png" alt="Shielder">
+                    <p class="class-name">Shielder</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="circle-container">
+            <a href="https://fategrandorder.fandom.com/wiki/Beast" target="_blank">
+                <div class="circle">
+                    <img src="beast.png" alt="Beast">
+                    <p class="class-name">Beast</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+</body>
+</html>
